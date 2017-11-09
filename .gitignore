@@ -1,0 +1,16 @@
+# all data except for polygon and point shapefiles
+#*
+#!*/
+#data/*.zip
+#!/data/*/*_POLY.shp
+#!/data/*/*_POLY_ASSESS.shp
+#!/data/*/*_PT.shp
+
+# all data
+data/*
+
+# jupyter checkpoints
+.ipynb_checkpoints/*
+
+# silly macs
+.DS_Store
